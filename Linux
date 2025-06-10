@@ -1,0 +1,84 @@
+alias name='command', where name is the shortcut you want to use, 
+and command is the full command you want to run.
+unalias name to remove it.
+
+* is called by Astrisk
+ls *.txt  Lists all files ending with `.txt`
+rm *.log          # Deletes all files ending with `.log`
+cp /path/*.jpg .  # Copies all `.jpg` files to the current directory
+
+whoami to get username
+hostname to get Hostname
+pwd  to print working directory
+ls list files
+cd change directory; cd .. to go back
+man manual of Commands
+whatis Command is a faster man 
+which Command to see where a Command is
+whereis Command to see where a command overall is
+sort to sort a file ex: cat java.txt | sort
+find 
+info Documentation of Commands
+help to call help as manual
+mkdir to create folder/s or use "Name with space""
+rmdir to remove folder
+ls > java.txt to create a text file containing file names in directory   
+touch java.txt to create text file or to remove use rm + name
+cat java.txt to read content of text
+echo "echo test" >java.txt  to add text to file
+less java.txt to open text file one page at a time reader mode
+more java.txt to open text file in Terminal windowed with rest percentage
+head java.txt to see the beginning of a file
+tail java.txt to see the end of a file
+cmp file .txt java.txt to compare file 
+diff file.txt java.txt to see where is the difference
+mv java.txt Downloads  to move file into directory
+mv test.txt .. to move file backwards
+mv test.txt test1.txt to rename file
+mv *.txt /destination/ will move all text files to the destination folder. Wildcards 
+rm *.txt deleteted all files with .txt extention
+cp java.txt Directory or cp file.txt ./directory 
+ln -s afile.txt linkname
+locate java.txt to get all files in all extentions of that name
+sudo apt install package to install package 
+sudo useradd nick to add user
+sudo adduser nick to add user with personal informations
+sudo passwd nick to change password
+sudo apt install finger to install finger package 
+finger nick to inspect system user nick
+wget plus URL to download from internet
+curl plus URL to download from internet > to direct to file
+zip java.txt to zip a file
+unzip java.txt to unzip
+chmod +x filename to change file mod
+chown user file to change ownership
+ifconfig to get ip address
+sudo apt install net-tools to install the command ip address 
+ip address to all ip addresses of a host
+ip address | grep eth0 to get ip address of one ethernet 
+resolvectl status to get DNS 
+ping google.com ping forever
+ping -c 5 -s 500 google.com  ping 5 times size of packet 500
+traceroute google.com to get the route of a site
+netstat or ss to get which ports are open on linux
+sudo ufw allow 80 to allow port 80
+sudo ufw status to check status of port 
+sudo ufw enable to enable port 
+sudo apt install neofetch to install neofetch
+neofetch to get system info
+cal is for calender
+echo "4+5+6+7" | bc to do some math 
+free to check how much memory is there
+df -h to check how much disk space
+ps to check processes
+ps -aux to check all processes 
+top or htop to check hardest processes top down
+kill with id 
+pkill -f filename to kill a file 
+history to call all commands written
+sudo reboot
+sudo shutdown -h now
+wc << Count these  any text    Count these
+bc << Calculate these  a=3 b=4  a*b then type Calculate these 
+cat << Printed print these Any text here  Printed
+difference betwenn "" and '' in the variable print.$ is to execute variables
